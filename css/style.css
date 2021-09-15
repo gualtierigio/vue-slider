@@ -27,18 +27,21 @@ main{
 }
 
 .cornice{
+    display: flex;
     height: 400px;
     width: 550px;
+    margin: auto;
     border: 1px solid red;
 }
 
-.img-wwrap{
-    width: 100%;
-    object-fit: cover;
+.img-wrap{
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: indianred;
 }
 
-.go-back.go-farward{
+.go-back.go-forward{
     height: 100%;
     width: 50px;
-    background-color: hotpink;
+    background-color: rgb(115, 105, 255);
 }

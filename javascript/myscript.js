@@ -33,6 +33,17 @@ var app = new Vue({
          surname: 'Unknown',
          sourceImg: 'img/gollum.jpg'
         },
-      ]
-    }
+      ],
+      indexOfImg: 0,
+    },
+
+    methods: {
+      
+      goBack: function (){
+        this.indexOfImg--
+      },
+      goFarward: function (){
+        this.indexOfImg++
+      },
+    },
 });
