@@ -5,7 +5,8 @@
 }
 
 header{
-    background-color: rgb(18, 214, 165);
+    background-image: url(../img/Hobbiton-5.jpg);
+    background-size: contain;
     height: 120px;
 }
 
@@ -16,10 +17,10 @@ header h1{
 }
 
 main{
-    background-color: rgb(0, 128, 96);
-
-
-    height: 800px;
+    background-image: url(../img/La_Contea_by_Ted_Nasmith.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cornice{
