@@ -2,6 +2,11 @@ var app = new Vue({
     el: '#app',
     data: {
       hobbits: [
+        {
+          name: 'Pipino',
+          surname: 'Peregrino Tuc',
+          sourceImg: 'img/pipino-tuc.jpg'
+        },
         {name: 'Bilbo',
          surname: 'Baggins',
          sourceImg: 'img/bilbo.jpg'
@@ -14,11 +19,6 @@ var app = new Vue({
         {name: 'Frodo',
          surname: 'Baggins',
          sourceImg: 'img/frodo.jpg'
-        },
-        {
-          name: 'Pipino',
-          surname: 'Peregrino Tuc',
-          sourceImg: 'img/pipino-tuc.jpg'
         },
         {
           name: 'Merry',
