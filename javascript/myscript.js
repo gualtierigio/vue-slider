@@ -38,11 +38,11 @@ var app = new Vue({
     },
 
     methods: {
-      
+
       goBack: function (){
         this.indexOfImg--
       },
-      goFarward: function (){
+      goForward: function (){
         this.indexOfImg++
       },
     },

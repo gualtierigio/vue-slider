@@ -22,26 +22,29 @@ main{
     height: 800px;
 }
 
-.col-12{
-    border: 1px solid red;
-}
-
 .cornice{
     display: flex;
     height: 400px;
-    width: 550px;
+    width: 700px;
     margin: auto;
-    border: 1px solid red;
 }
 
 .img-wrap{
-    width: calc(100% - 100px);
+    width: calc(100% - 140px);
     height: 100%;
-    background-color: indianred;
 }
 
-.go-back.go-forward{
+img.fit-in{
+    width: 100%;
     height: 100%;
-    width: 50px;
-    background-color: rgb(115, 105, 255);
+    object-fit: cover;
+}
+
+.go-back, .go-forward{
+    height: 100%;
+    width: 70px;
+}
+
+i {
+    font-size: 4rem;
 }

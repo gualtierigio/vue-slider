@@ -23,11 +23,15 @@
                 <div class="row">
                     <div class="pt-5 col-12 d-flex justify-content-center">
                         <div class="cornice">
-                            <div class="go-back"></div>
-                            <div class="img-wrap">
-                               
+                            <div class="go-back d-flex justify-content-center align-items-center">
+                                <i @click="goBack" class="fas fa-arrow-circle-left"></i>
                             </div>
-                            <div class="go-forward"></div>
+                            <div class="img-wrap">
+                               <img class="fit-in" :src="hobbits[indexOfImg].sourceImg" alt="hobbit img">
+                            </div>
+                            <div class="go-forward d-flex justify-content-center align-items-center">
+                                <i @click="goForward" class="fas fa-arrow-circle-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
