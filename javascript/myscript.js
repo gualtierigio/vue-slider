@@ -41,9 +41,15 @@ var app = new Vue({
 
       goBack: function (){
         this.indexOfImg--
+        if (this.indexOfImg < 0){
+          this.indexOfImg = this.hobbits.length -1;
+        }
       },
       goForward: function (){
         this.indexOfImg++
+        if (this.indexOfImg >= this.hobbits.length){
+          this.indexOfImg = 0;
+        }
       },
     },
 });
